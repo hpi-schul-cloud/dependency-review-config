@@ -11,7 +11,6 @@ allow-licenses:
   - ISC
   - LGPL-3.0
   - MIT
-  - MIT AND FIT
   - Python-2.0
   - Unlicense
   - X11

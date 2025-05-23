@@ -2,6 +2,9 @@ name: Validate Dependency Review Config
 
 on:
   pull_request:
+  push:
+    branches:
+      - main
 
 jobs:
   validate-yaml:
@@ -19,4 +22,4 @@ jobs:
         run: pip install -r test/requirements.txt
 
       - name: Run dependency review YAML validation
-        run: python test/test_dependency_review_config.py .github/dependency-review.yml
+        run: python test/test_dependency_review_config.py .github/dependency-review-config.yml
