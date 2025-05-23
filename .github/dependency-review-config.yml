@@ -1,0 +1,17 @@
+allow-licenses:
+  - 0BSD
+  - AGPL-3.0-only
+  - Apache-2.0
+  - BSD-2-Clause
+  - BSD-3-Clause
+  - BSD-3-Clause
+  - CC0-1.0
+  - FTL
+  - GPL-3.0
+  - ISC
+  - LGPL-3.0
+  - MIT
+  - Python-2.0
+  - Unlicense
+  - X11
+
