@@ -8,7 +8,7 @@ The goal of this repository is to centralize and standardize license policies. B
 
 ## Configuration File
 
-- **Path**: `.github/dependency-review.yml`
+- **Path**: `.github/dependency-review-config.yml`
 - **Type**: GitHub Advanced Security policy configuration
 - **Purpose**: Defines a whitelist of open source licenses that are permitted in the projects using this config.
 
@@ -19,7 +19,7 @@ To use this configuration in your own repository, add the following to your GitH
 ```yaml
 - uses: actions/dependency-review-action@v4
   with:
-    config-file: https://raw.githubusercontent.com/hpi-schul-cloud/dependency-review-config/main/dependency-review.yml
+    config-file: 'hpi-schul-cloud/dependency-review-config/.github/dependency-review-config.yml@main'
 ```
 
 License Policy
@@ -31,4 +31,4 @@ The configuration explicitly lists licenses that have been reviewed and approved
 - BSD-3-Clause
 - ISC
 
-For the complete list, see the contents of the dependency-review.yml file.
+For the complete list, see the contents of the `.github/dependency-review-config.yml` file.
