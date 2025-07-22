@@ -17,4 +17,5 @@ allow-licenses:
   - Python-2.0
   - Unlicense
   - X11
-
+allow-dependencies-licenses: >
+  pkg:npm/cookie-signature@1.2.2
