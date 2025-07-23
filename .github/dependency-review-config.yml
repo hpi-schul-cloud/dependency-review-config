@@ -18,5 +18,5 @@ allow-licenses:
   - Unlicense
   - X11
 allow-dependencies-licenses:
-  - pkg:npm/cookie-signature@1.2.2
   - pkg:npm/canvas@3.1.2
+  - pkg:npm/cookie-signature@1.2.2
