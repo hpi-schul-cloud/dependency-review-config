@@ -17,6 +17,7 @@ allow-licenses:
   - Python-2.0
   - Unlicense
   - X11
+  - GPL-2.0-or-later
 allow-dependencies-licenses:
   - pkg:npm/canvas@3.1.2
   - pkg:npm/cookie-signature@1.2.2
