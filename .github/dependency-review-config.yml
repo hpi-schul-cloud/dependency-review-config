@@ -21,3 +21,4 @@ allow-licenses:
 allow-dependencies-licenses:
   - pkg:npm/canvas@3.1.2
   - pkg:npm/cookie-signature@1.2.2
+  - pkg:npm/mongoose-lean-virtuals@2.0.0
