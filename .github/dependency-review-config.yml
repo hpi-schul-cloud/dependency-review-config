@@ -22,6 +22,7 @@ allow-licenses:
   - MPL-2.0
   - PSF-2.0
   - Python-2.0
+  - Ruby
   - Unlicense
   - X11
 allow-dependencies-licenses:
