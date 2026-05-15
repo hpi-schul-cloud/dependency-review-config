@@ -12,6 +12,7 @@ allow-licenses:
   - GPL-2.0-or-later
   - GPL-3.0
   - ISC
+  - JSON
   - LGPL-2.0-or-later
   - LGPL-2.1-only
   - LGPL-3.0
@@ -25,7 +26,9 @@ allow-licenses:
   - Ruby
   - Unlicense
   - X11
+  - Zlib
 allow-dependencies-licenses:
   - pkg:npm/canvas@3.1.2
   - pkg:npm/mongoose-lean-virtuals@2.0.0
+  - pkg:npm/nan@2.26.2
   - pkg:pypi/aiohappyeyeballs@2.6.1
