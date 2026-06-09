@@ -32,3 +32,5 @@ allow-dependencies-licenses:
   - pkg:npm/mongoose-lean-virtuals@2.0.0
   - pkg:npm/nan@2.26.2
   - pkg:pypi/aiohappyeyeballs@2.6.1
+allow-ghsas:
+  - GHSA-rgg8-g5x8-wr9v # CKEditor clipboard XSS (CVE-2024-45613): fix backported to 41.3.2, we use 41.4.2 and don't use BlockToolbar/HtmlEmbed
