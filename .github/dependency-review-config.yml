@@ -16,6 +16,7 @@ allow-licenses:
   - LGPL-2.0-or-later
   - LGPL-2.1-only
   - LGPL-3.0
+  - LicenseRef-bad-see-license-in-license.md # malformed "SEE LICENSE IN LICENSE.md" field used by ckeditor5 and all @ckeditor/* packages; actual license is GPL-2.0-or-later (dual-licensed with commercial option)
   - MIT
   - MIT-0
   - MITNFA
