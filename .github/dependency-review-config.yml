@@ -28,6 +28,7 @@ allow-licenses:
   - X11
   - Zlib
 allow-dependencies-licenses:
+  - pkg:npm/canvas@3.1.2
   - pkg:npm/ckeditor5
   - pkg:npm/@ckeditor/ckeditor5-adapter-ckfinder
   - pkg:npm/@ckeditor/ckeditor5-alignment
@@ -89,7 +90,6 @@ allow-dependencies-licenses:
   - pkg:npm/@ckeditor/ckeditor5-watchdog
   - pkg:npm/@ckeditor/ckeditor5-widget
   - pkg:npm/@ckeditor/ckeditor5-word-count
-  - pkg:npm/canvas@3.1.2
   - pkg:npm/mongoose-lean-virtuals@2.0.0
   - pkg:npm/nan@2.26.2
   - pkg:pypi/aiohappyeyeballs@2.6.1
