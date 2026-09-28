@@ -16,7 +16,6 @@ allow-licenses:
   - LGPL-2.0-or-later
   - LGPL-2.1-only
   - LGPL-3.0
-  - LicenseRef-bad-see-license-in-license.md # malformed "SEE LICENSE IN LICENSE.md" field used by ckeditor5 and all @ckeditor/* packages; actual license is GPL-2.0-or-later (dual-licensed with commercial option)
   - MIT
   - MIT-0
   - MITNFA
@@ -29,7 +28,68 @@ allow-licenses:
   - X11
   - Zlib
 allow-dependencies-licenses:
+  - pkg:npm/@ckeditor/ckeditor5-adapter-ckfinder
+  - pkg:npm/@ckeditor/ckeditor5-alignment
+  - pkg:npm/@ckeditor/ckeditor5-autoformat
+  - pkg:npm/@ckeditor/ckeditor5-autosave
+  - pkg:npm/@ckeditor/ckeditor5-basic-styles
+  - pkg:npm/@ckeditor/ckeditor5-block-quote
+  - pkg:npm/@ckeditor/ckeditor5-bookmark
+  - pkg:npm/@ckeditor/ckeditor5-ckbox
+  - pkg:npm/@ckeditor/ckeditor5-ckfinder
+  - pkg:npm/@ckeditor/ckeditor5-clipboard
+  - pkg:npm/@ckeditor/ckeditor5-cloud-services
+  - pkg:npm/@ckeditor/ckeditor5-code-block
+  - pkg:npm/@ckeditor/ckeditor5-core
+  - pkg:npm/@ckeditor/ckeditor5-easy-image
+  - pkg:npm/@ckeditor/ckeditor5-editor-balloon
+  - pkg:npm/@ckeditor/ckeditor5-editor-classic
+  - pkg:npm/@ckeditor/ckeditor5-editor-decoupled
+  - pkg:npm/@ckeditor/ckeditor5-editor-inline
+  - pkg:npm/@ckeditor/ckeditor5-editor-multi-root
+  - pkg:npm/@ckeditor/ckeditor5-emoji
+  - pkg:npm/@ckeditor/ckeditor5-engine
+  - pkg:npm/@ckeditor/ckeditor5-enter
+  - pkg:npm/@ckeditor/ckeditor5-essentials
+  - pkg:npm/@ckeditor/ckeditor5-find-and-replace
+  - pkg:npm/@ckeditor/ckeditor5-font
+  - pkg:npm/@ckeditor/ckeditor5-fullscreen
+  - pkg:npm/@ckeditor/ckeditor5-heading
+  - pkg:npm/@ckeditor/ckeditor5-highlight
+  - pkg:npm/@ckeditor/ckeditor5-horizontal-line
+  - pkg:npm/@ckeditor/ckeditor5-html-embed
+  - pkg:npm/@ckeditor/ckeditor5-html-support
+  - pkg:npm/@ckeditor/ckeditor5-icon
+  - pkg:npm/@ckeditor/ckeditor5-image
+  - pkg:npm/@ckeditor/ckeditor5-indent
+  - pkg:npm/@ckeditor/ckeditor5-language
+  - pkg:npm/@ckeditor/ckeditor5-link
+  - pkg:npm/@ckeditor/ckeditor5-list
+  - pkg:npm/@ckeditor/ckeditor5-markdown-gfm
+  - pkg:npm/@ckeditor/ckeditor5-media-embed
+  - pkg:npm/@ckeditor/ckeditor5-mention
+  - pkg:npm/@ckeditor/ckeditor5-minimap
+  - pkg:npm/@ckeditor/ckeditor5-page-break
+  - pkg:npm/@ckeditor/ckeditor5-paragraph
+  - pkg:npm/@ckeditor/ckeditor5-paste-from-office
+  - pkg:npm/@ckeditor/ckeditor5-remove-format
+  - pkg:npm/@ckeditor/ckeditor5-restricted-editing
+  - pkg:npm/@ckeditor/ckeditor5-select-all
+  - pkg:npm/@ckeditor/ckeditor5-show-blocks
+  - pkg:npm/@ckeditor/ckeditor5-source-editing
+  - pkg:npm/@ckeditor/ckeditor5-special-characters
+  - pkg:npm/@ckeditor/ckeditor5-style
+  - pkg:npm/@ckeditor/ckeditor5-table
+  - pkg:npm/@ckeditor/ckeditor5-typing
+  - pkg:npm/@ckeditor/ckeditor5-ui
+  - pkg:npm/@ckeditor/ckeditor5-undo
+  - pkg:npm/@ckeditor/ckeditor5-upload
+  - pkg:npm/@ckeditor/ckeditor5-utils
+  - pkg:npm/@ckeditor/ckeditor5-watchdog
+  - pkg:npm/@ckeditor/ckeditor5-widget
+  - pkg:npm/@ckeditor/ckeditor5-word-count
   - pkg:npm/canvas@3.1.2
+  - pkg:npm/ckeditor5
   - pkg:npm/mongoose-lean-virtuals@2.0.0
   - pkg:npm/nan@2.26.2
   - pkg:pypi/aiohappyeyeballs@2.6.1
