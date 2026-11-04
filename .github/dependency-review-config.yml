@@ -59,7 +59,7 @@ allow-dependencies-licenses:
   - pkg:npm/@ckeditor/ckeditor5-horizontal-line
   - pkg:npm/@ckeditor/ckeditor5-html-embed
   - pkg:npm/@ckeditor/ckeditor5-html-support
-  - pkg:npm/@ckeditor/ckeditor5-icon
+  - pkg:npm/@ckeditor/ckeditor5-icons
   - pkg:npm/@ckeditor/ckeditor5-image
   - pkg:npm/@ckeditor/ckeditor5-indent
   - pkg:npm/@ckeditor/ckeditor5-language
