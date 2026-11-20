@@ -96,3 +96,4 @@ allow-dependencies-licenses:
 allow-ghsas:
   - GHSA-jrqm-vmqc-gm93 # CKEditor HTML Support XSS (CVE-2026-28343): requires unsafe GHS config, which is not used
   - GHSA-rgg8-g5x8-wr9v # CKEditor clipboard XSS (CVE-2024-45613): fix backported to 41.3.2, we use 41.4.2; BlockToolbar not used
+  - GHSA-7f5c-rpf4-86p8 # hbs (CVE-2021-32822): affected versions <= 4.4.0 (latest version is 4.4.0). npm update is blocked without this
